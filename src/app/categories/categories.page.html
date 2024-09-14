@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ประเภทสินค้า</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item button (click)="navigateToProducts('electronics')">
+      <ion-label>อิเล็กทรอนิกส์</ion-label>
+    </ion-item>
+    <ion-item button (click)="navigateToProducts('clothing')">
+      <ion-label>เสื้อผ้า</ion-label>
+    </ion-item>
+    <ion-item button (click)="navigateToProducts('home')">
+      <ion-label>ของใช้ในบ้าน</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
