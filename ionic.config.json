@@ -1,0 +1,7 @@
+{
+  "name": "snacksbar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
